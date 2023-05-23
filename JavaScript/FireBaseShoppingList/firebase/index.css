@@ -1,0 +1,49 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+
+}
+img{
+    width: 150px;
+    margin: 0 auto;
+}
+input{
+color: aliceblue;
+background-color: gray;
+border: 0;
+padding: 15px;
+border-radius: 8px;
+font-size: 20px;
+text-align: center;
+margin: 10px 0;
+}
+button{
+background-color: burlywood;
+border: 0;
+padding: 15px;
+border-radius: 8px;
+font-size: 20px;
+text-align: center;
+}
+ul{
+    flex-wrap: wrap;
+    list-style:none;  
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+ul li{
+padding: 15px;
+background-color: whitesmoke;
+border-radius: 8px;
+flex-grow: 1;
+
+
+}
